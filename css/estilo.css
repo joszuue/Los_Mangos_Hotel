@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    /*background: linear-gradient(90deg, #52c4df, #ad55c1);*/
+    background-color: #9DDFD3;
+    font-family: '';
+    color: white;
+    font-family: Century Gothic ;
+    margin: 0;
+	padding: 0;
+}
+
+
+div{
+    background-color: transparent;
+    overflow: auto;
+}
+
+.contenedor{
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+  
+.contenedor a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+.contenedor .aula:hover {
+    opacity: 0.4;
+}
+
+.contenedor .resaltado{
+    color: white
+}
+
+
+.contenedor a .aula {
+    background-color: transparent;
+    color: white;
+    float: right;
+}
+
+
+.banner{
+    background-color: black;
+    overflow: hidden;
+    height: 410px;
+    
+}
+
+.banner img{
+    background-size: cover;
+    height: 410px;
+    width: 100%;
+    position: relative;
+    opacity: 0.3;
+}
+
+.titulo{
+    top: 40px;
+    position: absolute;
+    margin-left: 38%;
+    margin-right: 38%;
+    color: white;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 20px;
+}
+
+.imagenes{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 200px;
+}
+
+.imagenes img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin: 60px;
+}
+
+.contenedorInfo{
+    position: relative;
+    bottom: 150px;
+}
+
+.texto2 h3{
+    top: 40px;
+    float: left;
+    margin-left: 100px;
+    color: black;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px; 
+}
+
+.habitaciones{
+    float: left;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px; 
+}
+
+.caja1{
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    float: right;
+    color: black;
+}
+
+.contenido1{
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    text-align: justify;
+}
+
+.contenido1 h3{
+    padding: 5px;
+    text-align: center;
+}
+
+.contenido1 img{
+    top: 50px;
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    
+}
